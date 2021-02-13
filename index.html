@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pixxmo</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="first-page">
+      <div class="nav">
+        <nav>
+          <ul>
+            <li>services</li>
+            <li>portfolio</li>
+            <li>about</li>
+            <li>team</li>
+            <li>contact</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="landing-page">
+        <div class="title">
+          <h1>
+            <span class="rub">p</span><span class="rub">i</span
+            ><span class="rub">x</span><span class="rub">X</span
+            ><span class="rub">m</span><span class="rub">o</span>
+          </h1>
+          <div class="subtitle"></div>
+        </div>
+        <div class="box">
+          <div class="box-inner">
+            <div class="content">design is thinking we call it pixxmo</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./main.js"></script>
+    <script type="text/javascript" src="./vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelector(".box-inner"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+      });
+    </script>
+  </body>
+</html>
